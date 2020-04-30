@@ -1,9 +1,7 @@
-from django.shortcuts import render
-from django.http import  HttpResponse
+from django.shortcuts import render, redirect
+from django.http import HttpResponse
 
 
 # Create your views here.
 def show(request):
-    return  HttpResponse('Hello Django!!!!!!!!!!')
-
-
+    return HttpResponse('Hello ----------- Django!!!!!!!!!!')
