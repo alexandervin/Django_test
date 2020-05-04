@@ -38,8 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'one',
+    #'one',
     'debug_toolbar',
+    'rest_framework',
+    'one.apps.OneConfig',
+
 ]
 
 MIDDLEWARE = [
